@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-image: url("/Assets/snippet-image.png"),
+    url("/Assets/Background.png");
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 70%, cover;
+  text-align: center;
+  height: 790px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  height: 80px;
+
+  width: 80%;
+}
+
+.logo {
+  background-image: url("/Assets/Logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  left: 30px;
+  width: 200px;
+  position: relative;
+}
+
+nav .search-box {
+  background-image: url("/Assets/Search\ Icon.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  transform: translateX(690px);
+  background-size: 20px;
+  align-items: center;
+  padding-left: 35px;
+  font-size: 20px;
+  display: flex;
+  width: 8%;
+}
+
+.getting-started-btn {
+  transform: translateX(700px);
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  width: 160px;
+  border: none;
+  height: 50px;
+}
+
+main h1 {
+  font-size: 60px;
+  margin-top: 40px;
+}
+
+main > p {
+  margin: auto;
+  font-size: 20px;
+  margin-top: 15px;
+  width: 40%;
+}
+
+main > .getting-started-btn {
+  position: absolute;
+  margin-top: 25px;
+  left: -15px;
+}
+
+main .payment {
+  margin-top: 90px;
+}
+
+.container {
+  height: 650px;
+  background-image: url("/Assets/Customizable\ Image.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position-x: 850px;
+  background-position-y: 90px;
+  position: relative;
+}
+
+.container > h1 {
+  position: relative;
+  top: 150px;
+
+  font-size: 40px;
+
+  width: 40%;
+  left: 230px;
+}
+
+.container > p {
+  position: relative;
+  top: 150px;
+  width: 31%;
+  left: 230px;
+  font-size: 17px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.container > button {
+  left: -30.8%;
+  position: absolute;
+  bottom: 230px;
+}
+
+footer {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+footer > .logo {
+  left: 185px;
+}
+
+footer > p {
+  margin-right: 230px;
+  font-size: 17px;
+}
